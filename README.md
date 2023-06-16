@@ -39,12 +39,16 @@ npm start
 http://localhost:2023
 
 # 빌드된 프로젝트 실행 [dist폴더] 
-- 빌드 방법
+# 빌드된 프로젝트 실행 [dist폴더] 
+- 빌드 방법 :
+
 npm run build
 
-- 실행
+- 실행 :
+
 http-server dist
 
-- 결과
+- 결과 :
+
 http://localhost:8080
 
