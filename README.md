@@ -32,23 +32,24 @@ https://dudgml464.github.io
 git clone https://github.com/dudgml464/emoji-emotion-recognition.git
 
 cd emoji-emotion-recognition
+
 npm i
+
 npm i http-server
+
 npm start
 
 http://localhost:2023
 
 # 빌드된 프로젝트 실행 [dist폴더] 
-- 빌드 방법 :
+- 빌드 방법
 
     npm run build
 
-- 실행 :
+- 실행
 
     http-server dist
 
-- 결과 :
+- 결과
 
     http://localhost:8080
-
-
