@@ -37,10 +37,9 @@ https://dudgml464.github.io
 
     cd emoji-emotion-recognition
 
-- npm 및 라이브러리 인스톨
+- npm install
 
     npm i
-    npm i http-server
 
 - 실행
 
@@ -51,10 +50,6 @@ https://dudgml464.github.io
     http://localhost:2023
 
 # 빌드된 프로젝트 실행 [dist폴더] 
-- 빌드 방법
-
-    npm run build
-
 - 실행
 
     http-server dist
