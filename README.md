@@ -8,7 +8,6 @@
 3. 이모지 버튼을 이용한 테스트 이미지로 간편히 확인가능
 4. 감정 라벨 별로 이모지를 이용한 감정 시각화
 
-# 사용 방법
 카메라를 이용한 감정 인식: 카메라 탭에서 웹캠 장치를 활성화하고, 실시간으로 분석하여 감정을 인식하고, 이모지로 표시합니다.
 
 이미지를 이용한 감정 인식: 이미지 탭에서 사용자가 업로드한 이미지를 분석하여 감정을 인식하고, 이모지로 표시합니다.
@@ -30,21 +29,36 @@
 https://dudgml464.github.io
 
 # 프로젝트 실행하기
-git clone https://github.com/dudgml464/emoji-emotion-recognition.git
+- 프로젝트 다운로드
 
-cd emoji-emotion-recognition
-npm i
-npm i http-server
-npm start
+    git clone https://github.com/dudgml464/emoji-emotion-recognition.git
 
-http://localhost:2023
+- 프로젝트 이동
+
+    cd emoji-emotion-recognition
+
+- npm 및 라이브러리 인스톨
+
+    npm i
+    npm i http-server
+
+- 실행
+
+    npm start
+
+- 결과
+
+    http://localhost:2023
 
 # 빌드된 프로젝트 실행 [dist폴더] 
 - 빌드 방법
-npm run build
+
+    npm run build
 
 - 실행
-http-server dist
+
+    http-server dist
 
 - 결과
-http://localhost:8080
+
+    http://localhost:8080

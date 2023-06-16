@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Y_Spotlight'; /* 'Y_Spotlight' 폰트를 선언합니다. */
+  src: url('../../public/fonts/Y_Spotlight.woff') format('woff'); /* 폰트 파일 경로와 포맷을 지정합니다. */
+  font-weight: normal; /* 폰트의 굵기를 일반으로 설정합니다. */
+  font-style: normal; /* 폰트의 스타일을 일반으로 설정합니다. */
+}
+
+.App {
+  text-align: center; /* 내용을 가운데 정렬합니다. */
+  padding: 10px; /* 내용과 테두리 사이의 여백을 설정합니다. */
+  min-height: none; /* 최소 높이를 설정하지 않습니다. */
+  min-width: 0px; /* 최소 너비를 설정하지 않습니다. */
+  background: linear-gradient(145deg, #d8d4e6, #fffbff); /* 배경에 선형 그라데이션을 적용합니다. */
+  box-shadow: 5px 5px 8px #d6d1e3, -5px -5px 8px #ffffff; /* 그림자 효과를 추가합니다. */
+  border-radius: 20px; /* 테두리의 모서리를 둥글게 설정합니다. */
+  background-color: purple;
+}
+
+body {
+  background: #f1ebff; /* 배경 색상을 지정합니다. */
+  display: flex; /* 요소를 가로 방향으로 나열합니다. */
+  align-items: center; /* 요소를 수직 방향으로 가운데 정렬합니다. */
+  justify-content: center; /* 요소를 가로 방향으로 가운데 정렬합니다. */
+  padding: 2vmax; /* 내용과 테두리 사이의 여백을 설정합니다. */
+  box-sizing: border-box; /* 박스 모델을 설정합니다. */
+}
+
+/* TabMenu CSS */
+.menu {
+  background-color: linear-gradient(145deg, #d8d4e6, #fffbff); /* 배경에 선형 그라데이션을 적용 */
+  display: flex; /* 요소를 가로로 나열합니다. */
+  justify-content: center; /* 요소를 가운데 정렬 */
+  align-items: center; /* 요소를 수직으로 가운데 정렬 */
+}
+
+.menu button {
+  background-color: transparent; /* 배경색을 투명하게 설정 */
+  border: none; /* 테두리를 없앱니다. */
+  cursor: pointer; /* 커서를 포인터로 변경합니다. */
+  padding: 8px; /* 버튼 내용과 테두리 사이의 여백을 설정 */
+}
+.MenuIcon, .RegularIcon {
+  color: #54004b; /* 아이콘의 색상을 지정 */
+}
+
+.menu button:hover {
+  border-radius: 5px !important; /* 버튼의 모서리를 5px로 둥글게 설정합니다. */
+  background-color: #d0c5ff; /* 버튼에 마우스를 올렸을 때의 배경색을 지정합니다. */
+}
+
+.menu button.active {
+  color: #007bff; /* 활성화된 버튼의 색상을 지정합니다. */
+}
+
+.menu button:focus {
+  outline: none; /* 포커스된 버튼에 대한 아웃라인을 제거합니다. */
+}
+
+.header {
+  text-align: center; /* 내용을 가운데 정렬합니다. */
+  font-family: 'Y_Spotlight'; /* 'Y_Spotlight' 폰트를 사용합니다. */
+  color: #ff0000; /* 헤더의 글자색을 지정합니다. */
+  margin: 15px 0 0 10px; /* 마진을 설정합니다. */
+}
+
+#text-drop {
+  font-size: 50px; /* 글꼴 크기를 설정합니다. */
+  font-family: 'Y_Spotlight'; /* 'Y_Spotlight' 폰트를 사용합니다. */
+  font-weight: 900; /* 폰트의 굵기를 설정합니다. */
+}
+
+.h-0 {
+  color: #FF3366;
+}
+
+.h-1 {
+  color: #00A8B0;
+}
+
+.h-2 {
+  color: #1A535C;
+}
+
+.h-3 {
+  color: #FFC835;
+}
+
+.h-4 {
+  color: #3A8AE5;
+}
+
+#ES {
+  font-size: 30px;
+}
+
+.smile {
+  color: #9b5de5;
+  margin-left: 15px;
+}
+
+.questionIcon {
+  position: fixed; /* 위치를 고정합니다. */
+  top: 15px; /* 위쪽 여백을 설정합니다. */
+  right: 15px; /* 오른쪽 여백을 설정합니다. */
+  cursor: pointer; /* 커서를 포인터로 변경합니다. */
+  z-index: 9999; /* 높은 z-index 값을 설정합니다. */
+}
+
+.iconBackground {
+  background-color: #b882f6; /* 아이콘 배경색을 지정  */
+  display: inline-flex; /* 요소를 인라인 플렉스로 표시합  */
+  justify-content: center; /* 요소를 가운데 정렬합니다. */
+  align-items: center; /* 요소를 수직으로 가운데 정렬 */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
